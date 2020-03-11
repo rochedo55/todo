@@ -1,8 +1,5 @@
 import React from 'react';
 import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
     Link
   } from "react-router-dom";
 
@@ -13,7 +10,7 @@ class Home extends React.Component {
     }
 
     render() {
-        return <div>hello da home <Link to="/About">aaa</Link></div>
+        return <div>hello da home <Link to="/About"> Ir para About</Link></div>
     }
 }
 

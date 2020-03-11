@@ -6,8 +6,7 @@ import * as serviceWorker from './serviceWorker';
 import {
     BrowserRouter as Router,
     Switch,
-    Route,
-    Link
+    Route
   } from "react-router-dom";
 import Home from './components/pages/Home.js';
 import About from './components/pages/About.js';
