@@ -14,17 +14,9 @@ import About from './components/pages/About.js';
 
 function App() {
   return (
-    <Router>
-      <Switch>
-        <Route path="/">
-          <Home />
-        </Route>
-        <Route path="/ok">
-          <About />
-        </Route>
-      </Switch>
-    </Router>
+    <div></div>
   );
 }
+
 
 export default App;
