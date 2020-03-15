@@ -1,8 +1,15 @@
-.App {
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
   text-align: center;
+  padding-top: 4rem;
+  width: 100%;
+  min-height: 100vh;
 }
 
-.App-logo {
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +42,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */

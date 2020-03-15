@@ -1,0 +1,26 @@
+.create-task {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background: #1c1c1c;
+    margin-bottom: 1rem;
+}
+
+#create-task-input {
+    border: none;
+    background: white;
+    color: #5c5c5c;
+    min-height: 1rem;
+    padding: .5rem;
+    width: 50%;
+}
+
+.create-task-btn {
+    border: none;
+    background: #5c5c5c;
+    color: white;
+    min-height: 1rem;
+    padding: .5rem;
+}
